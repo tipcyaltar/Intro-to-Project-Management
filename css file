@@ -1,23 +1,30 @@
-.student-child {
+.lib-1-icon {
   position: absolute;
-  top: 150px;
-  left: 1383px;
-  border-radius: 10px;
-  background-color: #fefcfc;
-  width: 506px;
-  height: 134px;
+  top: 78px;
+  left: 0;
+  width: 2100px;
+  height: 1117px;
+  object-fit:cover;
+  opacity: 0.3;
 }
+
+ .nav{
+  background-color: #d7e96d;
+ }
 .student-item {
   position: absolute;
   top: calc(50% - 495px);
   left: calc(50% - 646px);
   width: 145px;
   height: 55px;
+  
+  
 }
 .home {
   position: relative;
   font-weight: 800;
   text-decoration: none;
+ 
   
 }
 .home-wrapper {
@@ -25,6 +32,7 @@
   left: calc(50% - 758px);
   display: flex;
   text-decoration: none;
+  
   
 }
 .bookmark-wrapper,
@@ -203,6 +211,7 @@
   position: absolute;
   width: 1222px;
   height: 809px;
+  
 }
 .frame-parent {
   top: 0;
@@ -211,6 +220,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  
 }
 .group-a {
   text-decoration: none;
@@ -220,6 +230,7 @@
   font-size: 20px;
   color: #000;
   font-family: Poppins;
+
 }
 .rectangle-div {
   position: absolute;
@@ -256,7 +267,7 @@
   font-family: Cairo;
   font-size: 35pt;
 }
-.student-child1 {
+.student-child1{
   position: absolute;
   top: 115px;
   left: 1422px;
@@ -269,10 +280,11 @@
   position: absolute;
   top: 138px;
   left: 1570px;
-  font-size: 32px;
+  font-size: 40px;
   color: #000;
   text-align: left;
   font-family: Cairo;
+  font-weight: 650;
 }
 .line-icon {
   position: absolute;
@@ -290,7 +302,7 @@
   left: 83px;
   font-size: 64px;
   text-align: left;
-  color: #bcb572;
+  color:#7e7a5c;
   font-weight: bold;
 }
 .student {
@@ -404,7 +416,7 @@ body{
     padding-inline-start: 50px;
   }
   
- 
+
 
   
 }
